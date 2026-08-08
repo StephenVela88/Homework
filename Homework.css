@@ -1,3 +1,28 @@
+/* Update for Wave */
+/* Shortcuts from other projects */
+
+:root {
+  /*Shortcuts - Colors*/
+  --bg-dark: #0d1b2a;
+  --bg-card: #1b263b;
+  --text-main: #ff7f50;
+  --text-bright: #FFFFFF;
+  --accent-orange: #ff7f50;
+  --accent-hover: #ff7f50;
+  --error-red: #ff7f50;
+
+  /*Shortcuts - Spacing*/
+  --space-8: 8px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
+  --space-64: 64px;
+  --space-16x16: 16px 16px;
+}
+
+
+
 /* Update for Homework 3 changes */
 * {
     box-sizing: border-box;
@@ -30,6 +55,12 @@ h1, h2, h3 {
 
 nav {
     width: 100%;
+    color: #e0e1dd;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 15px;
 }
 
 nav ul {
@@ -83,7 +114,7 @@ img {
     max-width: 100%;
     height: auto;
     padding: 5px;
-    align-items: center;
+    image-orientation: center;
     display: block;
 }
 
